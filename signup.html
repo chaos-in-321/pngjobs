@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <?php $title='Sign up for a job'; ?>
+    <section>
+      <script src="assets/js/jquery_min.js"></script>
+      <script src="assets/js/bootstrap.js"></script>
+      <script src="assets/js/jquery.menu-aim.js"></script>
+      <script src="assets/js/jquery.countTo.js"></script>
+      <script src="assets/js/jquery.inview.min.js"></script>
+      <script src="assets/js/owl.carousel.js"></script>
+      <script src="assets/js/modernizr.js"></script>
+      <script src="assets/js/custom.js"></script>
+      <!--main js file end-->
+      <meta charset="utf-8" />
+
+      <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+      <meta name="description" content="Job Pro" />
+      <meta name="keywords" content="Job Pro" />
+      <meta name="author" content="" />
+      <meta name="MobileOptimized" content="320" />
+      <!--style -->
+      <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
+      <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" />
+      <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
+      <link rel="stylesheet" type="text/css" href="assets/css/fonts.css" />
+      <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+      <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css" />
+      <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.default.css" />
+      <link rel="stylesheet" type="text/css" href="assets/css/flaticon.css" />
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+      <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
+      <!-- favicon links -->
+      <link rel="shortcut icon" type="image/png" href="assets/images/header/favicon.ico" />
+    </section>
+  </head>
+  <body>
+    <!-- THe first part is the login section with email and password followed by the sign up section with form validation -->
+  <div class="jp_top_header_img_wrapper">
+     <div class="jp_slide_img_overlay"></div>
+     <section>
+         <div class="gc_main_menu_wrapper">
+             <div class="container-fluid">
+                 <div class="row">
+                     <div class="col-lg-2">
+                     </div>
+                     <div class="col-lg-7 col-md-8 col-sm-12 col-xs-12">
+                         <div class="header-area hidden-menu-bar stick" id="sticker">
+                             <!-- mainmenu start -->
+                             <div class="mainmenu">
+                                 <ul class="float_left">
+                                   <li class="gc_main_navigation"><a>Email</a></li>
+                                   <li class="gc_main_navigation"><input type="text"></li>
+                                   <li class="gc_main_navigation"><a>Password</a></li>
+                                   <li class="gc_main_navigation"><input type="text"></li>
+
+                                 </ul>
+                             </div>
+                           </div>
+                         </div>
+
+                             <!-- mainmenu end -->
+                             <!-- mobile menu area start -->
+                     <!-- mobile menu area end -->
+                     <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                         <div class="jp_navi_right_btn_wrapper">
+                             <ul>
+
+                                 <li><a href="profile.html"><i class="fa fa-user"></i>&nbsp; LOGIN</a></li>
+                             </ul>
+                         </div>
+                     </div>
+                   </div>
+                   <div class="jp_banner_heading_cont_wrapper">
+                     <div class="container">
+                       <div class="row">
+                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                           <div class="jp_job_heading_wrapper">
+                            <div class="jp_job_heading">
+                              <h1><span><center>SIGN UP</center></span></h1>
+                              <center><h2>It's free</h2></center>
+                              <br></br>
+                              <br></br>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3"></div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                          <div class="jp_header_login_wrapper">
+                           <form action="signup-varification.html" method="POST" id="signup">
+           						 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                                      <center><h1> First Name</h1>
+                                      </center>
+                                  </div>
+                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                      <center><input type="text" id="finame"name="finame" >
+                                      </center>
+                                  </div>
+           					    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                                      <center><h1> Last Name</h1>
+                                      </center>
+                                  </div>
+                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                      <center><input type="text" id="laname" name="laname">
+                                      </center>
+                                  </div>
+           					    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                                      <center><h1> Password</h1>
+                                      </center>
+                                  </div>
+                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                      <center><input type="password"  id="password" name="password">
+                                      </center>
+                                  </div>
+           					    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                                      <center><h1>Re-Enter Password</h1>
+                                      </center>
+                                  </div>
+                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                      <center><input type="password" id="repassword" name="repassword">
+                                      </center>
+                                  </div>
+                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                      <center><h1>Email Id</h1>
+                                      </center>
+                                  </div>
+                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                      <center><input type="email" id="email" name="email" >
+                                      </center>
+                                  </div>
+                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                       <center><h1>Location</h1>
+                                       </center>
+                                   </div>
+                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+     							                   <center>
+                                      <select name="location" id="location" style="background-color:white">
+     									                          <option value=""></option>
+     									                          <option value="software">India</option>
+     									                          <option value="hardware">Abroad</option>
+     								                </select>
+     								                <i id="locationerror"></i>
+     							                  </center>
+                                  </div>
+                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                      <center><h1>Phone Number</h1>
+                                      </center>
+                                  </div>
+                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                      <center><input type="text"  id="mobile" name="mobile">
+                                      </center>
+                                      <br></br>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col-lg-3 col-md-5"></div>
+                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                      <div class="jp_form_btn_wrapper">
+                                       <ul>
+                                        <li><a href="#" onclick="validateSignup()"><i class="fa fa-user"></i>Sign Up</a></li>
+                                      </ul>
+                                      </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-5"></div>
+                                  </div>
+
+                                  <br></br>
+     					  </form>
+
+                            <div class="row">
+                              <div class="col-lg-3 col-md-5"></div>
+                              <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                <div class="jp_form_btn_wrapper">
+                                 <ul>
+                                  <li><a href="#" style="background-color:#E87461"><i class="fa fa-linkedin"></i>Linkedin</a></li>
+                                 </ul>
+                                </div>
+                              </div>
+                              <div class="col-lg-3 col-md-5"></div>
+                            </div>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                       </div>
+                      </div>
+                      <div class="col-lg-3"></div>
+                    </div>
+                  </div>
+                </div>
+             </div>
+         </div>
+         <script>
+             function validateSignup(){
+
+             var firstName =document.getElementById("finame").value;
+             var lastName =document.getElementById("laname").value;
+             var password=document.getElementById("password").value;
+             var repassword=document.getElementById("repassword").value;
+             var email=document.getElementById("email").value;
+             var mobile=document.getElementById("mobile").value;
+             var location=document.getElementById("location").value;
+
+             var status=true;
+
+             if(firstName=="")
+             {
+             status=false;
+             document.getElementById("finame").style.border="1px solid #D64541";
+             }
+             else
+             {
+             document.getElementById("finame").style.border="1px solid green";
+             }
+             //===================================================
+             if(lastName=="")
+             {
+             status=false;
+             document.getElementById("laname").style.border="1px solid #D64541";
+             }
+             else
+             {
+             document.getElementById("laname").style.border="1px solid green";
+             }
+             //===================================================
+             if(!/^.*(?=.{8,})(?=.*[a-zA-Z])(?=.*\d)(?=.*[!#$%&@*? "]).*$/.test(password))
+             {
+             status=false;
+             document.getElementById("password").style.border="1px solid #D64541";
+             }
+             else
+             {
+             document.getElementById("password").style.borderColor="green";
+             }
+             //===================================================
+             if(!/^[a-zA-Z0-9.!#$%&’*+\/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(email))
+             {
+             status=false;
+             document.getElementById("email").style.border="1px solid #D64541";
+             }
+             else
+             {
+             document.getElementById("email").style.borderColor="green";
+             }
+             //===================================================
+             if(repassword==password&&repassword!=="")
+             {
+             status=true;
+             document.getElementById("repassword").style.borderColor="green";
+             }
+             else
+             {
+             status=false;
+             document.getElementById("repassword").style.border="1px solid #D64541";
+             }
+             //===================================================
+             if(!/^\d{10}$/.test(mobile))
+             {
+             status=false;
+             document.getElementById("mobile").style.border="1px solid #D64541";
+             }
+             else
+             {
+             document.getElementById("mobile").style.borderColor="green";
+             }
+             //===================================================
+
+             if(status==true)
+             {
+               document.getElementById("signup").submit();
+
+             }
+
+             }
+         </script>
+     </section>
+     <!-- footer section of the website -->
+     <section>
+       <div class="jp_top_header_img_wrapper">
+
+
+           <!-- jp Newsletter Wrapper End -->
+           <!-- jp footer Wrapper Start -->
+           <div class="jp_footer_main_wrapper">
+               <div class="container">
+                   <div class="row">
+
+                       <div class="jp_footer_three_sec_main_wrapper">
+                           <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                               <div class="jp_footer_first_cont_wrapper">
+                                   <div class="jp_footer_first_cont">
+                                       <h2>Who We Are</h2>
+                                       <p>This is Photoshop's version of Lom Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum.<br><br> Proin akshay handge vel velit auctor aliquet. Aenean sollicitudin,</p>
+                                       <ul>
+                                           <li><i class="fa fa-plus-circle"></i> <a href="#">READ MORE</a></li>
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                               <div class="jp_footer_condidate_wrapper jp_footer_condidate_wrapper2">
+                                   <div class="jp_footer_condidate">
+                                       <h2>For CANDIDATE</h2>
+                                       <ul>
+                                           <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Add a Resume</a></li>
+                                           <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Candidate Dashboard</a></li>
+                                           <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Past Applications</a></li>
+                                           <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Job Alerts</a></li>
+                                           <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Bookmarks</a></li>
+                                           <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> My Account</a></li>
+                                           <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Your Jobs</a></li>
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                               <div class="jp_footer_condidate_wrapper jp_footer_condidate_wrapper3">
+                                   <div class="jp_footer_condidate">
+                                       <h2>For Employers</h2>
+                                       <ul>
+                                           <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Browse Candidates</a></li>
+                                           <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Employer Dashboard</a></li>
+                                           <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Add Job</a></li>
+                                           <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Job Page</a></li>
+                                           <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Job Packages</a></li>
+                                           <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Work Process</a></li>
+                                           <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> My Account</a></li>
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                               <div class="jp_footer_condidate_wrapper jp_footer_condidate_wrapper4">
+                                   <div class="jp_footer_condidate">
+                                       <h2>Information</h2>
+                                       <ul>
+                                           <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> About Us</a></li>
+                                           <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Terms & Conditions</a></li>
+                                           <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Privacy Policy</a></li>
+                                           <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Careers with Us</a></li>
+                                           <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Sitemap</a></li>
+                                           <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Contact Us</a></li>
+                                           <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> FAQs</a></li>
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                           <div class="jp_bottom_footer_Wrapper">
+                               <div class="row">
+                                   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                       <div class="jp_bottom_footer_left_cont">
+                                           <p>PNG JOBS. All Rights Reserved.</p>
+                                       </div>
+                                       <div class="jp_bottom_top_scrollbar_wrapper">
+                                           <a href="javascript:" id="return-to-top"><i class="fa fa-angle-up"></i></a>
+                                       </div>
+                                   </div>
+                                   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                       <div class="jp_bottom_footer_right_cont">
+                                           <ul>
+                                               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                               <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                                               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                               <li class="hidden-xs"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                               <li class="hidden-xs"><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                           </ul>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+     </section>
+
+   </div>
+
+ </body>
+ </html>
